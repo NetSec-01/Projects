@@ -1,0 +1,4 @@
+inter = {'x':'v', 'b':['Server Port', 'Access Link'], 'c' : 10}
+print(inter.x)
+
+

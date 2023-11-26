@@ -1,0 +1,40 @@
+root - ERROR - This is an error message
+root - CRITICAL - This is a critical message
+root - ERROR - This is an error message
+root - CRITICAL - This is a critical message
+root - ERROR - This is an error message
+root - CRITICAL - This is a critical message
+ 2023-05-27 22:59:46,260, 106209 - DEBUG - This is a debug message
+ 2023-05-27 22:59:46,261, 106209 - INFO - Ths is an info message
+ 2023-05-27 22:59:46,261, 106209 - WARNING - This is a warning message
+ 2023-05-27 22:59:46,261, 106209 - ERROR - This is an error message
+ 2023-05-27 22:59:46,261, 106209 - CRITICAL - This is a critical message
+ 2023-05-27 23:06:20,043, 109540 - WARNING - This is a warning message
+ 2023-05-27 23:06:20,043, 109540 - ERROR - This is an error message
+ 2023-05-27 23:06:20,043, 109540 - CRITICAL - This is a critical message
+ 2023-05-27 23:07:17,553, 110064 - INFO - Ths is user trying to steal
+ 2023-05-27 23:07:17,553, 110064 - WARNING - This is a warning message
+ 2023-05-27 23:07:17,553, 110064 - ERROR - This is an error message
+ 2023-05-27 23:07:17,553, 110064 - CRITICAL - This is a critical message
+ 27-May-23 23-22-09, 117405 - INFO - Ths is user trying to steal
+ 27-May-23 23-22-09, 117405 - WARNING - Admin logged out
+ 27-May-23 23-22-09, 117405 - ERROR - This is an error message
+ 27-May-23 23-22-09, 117405 - CRITICAL - This is a critical message
+ 28-May-23 00-09-58, 140732 - ERROR - Exception Occured
+Traceback (most recent call last):
+  File "/home/kali/Desktop/logger-lab/src/task1.py", line 5, in <module>
+    c = a/b
+ZeroDivisionError: integer division or modulo by zero
+ 28-May-23 00-09-58, 140732 - INFO - Ths is user trying to steal
+ 28-May-23 00-09-58, 140732 - WARNING - Admin logged out
+ 28-May-23 00-09-58, 140732 - ERROR - This is an error message
+ 28-May-23 00-09-58, 140732 - CRITICAL - This is a critical message
+ 28-May-23 00-21-31, 146335 - ERROR - Exception Occured
+Traceback (most recent call last):
+  File "/home/kali/Desktop/logger-lab/src/task1.py", line 5, in <module>
+    c = a/b
+ZeroDivisionError: integer division or modulo by zero
+ 28-May-23 00-21-31, 146335 - INFO - Ths is user trying to steal
+ 28-May-23 00-21-31, 146335 - WARNING - Admin logged out
+ 28-May-23 00-21-31, 146335 - ERROR - This is an error message
+ 28-May-23 00-21-31, 146335 - CRITICAL - This is a critical message
