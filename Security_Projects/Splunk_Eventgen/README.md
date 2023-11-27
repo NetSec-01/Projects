@@ -1,17 +1,17 @@
-Overview:
+#**Overview:**
 
 -Used to generate security events as per the sample file using Splunk Eventgen.
 -The events can be outputted to splunk and analyzed using SPL(Search  Processing Language) query. 
 
 -***********************************************************************************-
 
-Installation Requirements:
+#Installation Requirements:
 
 Splunk and Eventgen has to be installed on the local system.
 
 -***********************************************************************************-
 
-File Placements:
+#File Placements:
 
 -To ensure zero issues, make sure to place the files in the below mentioned folders.
 -Sample Files; which includes below mentioned files has to be placed into 'samples'   direcroty under SA-Eventgen (path: /opt/splunk/etc/apps/SA-Eventgen/samples) 
@@ -26,7 +26,7 @@ File Placements:
 
 -***********************************************************************************-
 
-Files Description:
+#Files Description:
 
 This section describes the information contained in the sample files and eventgen.conf file. 
     
@@ -116,7 +116,7 @@ II) eventgen.conf File:
         earliest = -10s
         latest = now
         count = 20
-        hourOfDayRate = { "0": 0.8, "1": 0.8, "2": 0.8, "3": 0.7, "4": 0.2, "5": 0.8, "6": 0.8, "7": 0.8, "8": 0.8, "9": 0.8,                           "10": 0.8, "11": 0.8, "12": 0.8, "13": 0.8, "14": 0.8, "15": 0.8, "16": 0.8, "17": 1, "18": 1.2, "                          19": 0.8, "20": 0.8, "21": 0.8, "22": 0.8, "23": 0.8, "24": 2 }
+        hourOfDayRate = { "0": 0.8, "1": 0.8, "2": 0.8, "3": 0.7, "4": 0.2, "5": 0.8, "6": 0.8, "7": 0.8, "8": 0.8, "9": 0.8, "10": 0.8, "11": 0.8, "12": 0.8, "13": 0.8, "1                            4": 0.8, "15": 0.8, "16": 0.8, "17": 1, "18": 1.2, "19": 0.8, "20": 0.8, "21": 0.8, "22": 0.8, "23": 0.8, "24": 2 }
         dayOfWeekRate = { "0": 0.7, "1": 0.8, "2": 0.7, "3": 0.5, "4": 1.0, "5":1.0, "6":1.0 }
         randomizeCount = 0.2
         randomizeEvents = true
