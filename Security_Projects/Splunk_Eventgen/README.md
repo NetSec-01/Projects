@@ -1,4 +1,4 @@
-# **Overview:**
+# Overview
 
 Used to generate security events as per the sample file using Splunk Eventgen.
 The events can be outputted to splunk and analyzed using SPL(Search  Processing Language) query. 
