@@ -1,45 +1,46 @@
-#**Overview:**
+# **Overview:**
 
--Used to generate security events as per the sample file using Splunk Eventgen.
--The events can be outputted to splunk and analyzed using SPL(Search  Processing Language) query. 
-
--***********************************************************************************-
-
-#Installation Requirements:
-
-Splunk and Eventgen has to be installed on the local system.
+> Used to generate security events as per the sample file using Splunk Eventgen.
+> The events can be outputted to splunk and analyzed using SPL(Search  Processing Language) query. 
 
 -***********************************************************************************-
 
-#File Placements:
+# **Installation Requirements:**
 
--To ensure zero issues, make sure to place the files in the below mentioned folders.
--Sample Files; which includes below mentioned files has to be placed into 'samples'   direcroty under SA-Eventgen (path: /opt/splunk/etc/apps/SA-Eventgen/samples) 
- ensure to isntall the 'splunk' application in '/opt' directory.
- Files to be placed in samples folder, 
- 1) security_log.sample
- 2) action.sample
- 3) countries.sample
- 4) companies.sample
- 5) ip_address_1.sample
- 6) usernames.sample
+> Splunk and Eventgen has to be installed on the local system.
 
 -***********************************************************************************-
 
-#Files Description:
+# **File Placements:**
 
-This section describes the information contained in the sample files and eventgen.conf file. 
+> To ensure zero issues, make sure to place the files in the below mentioned folders.
+> Sample Files; which includes below mentioned files has to be placed into 'samples'   direcroty under SA-Eventgen (path: /opt/splunk/etc/apps/SA-Eventgen/samples) 
+> As a best practice for this project, ensure to install the 'splunk' application in '/opt' directory.
+
+> > Files to be placed in samples folder, 
+> > 1) security_log.sample
+> > 2) action.sample
+> > 3) countries.sample
+> > 4) companies.sample
+> > 5) ip_address_1.sample
+> > 6) usernames.sample
+
+-***********************************************************************************-
+
+# **Files Description:**
+
+> This section describes the information contained in the sample files and eventgen.conf file. 
     
- I) SampleFiles: 
-    
-    1) security_log.sample:
+> ## I) SampleFiles: 
+
+> > > ### 1) security_log.sample:
         
         This file contains the structure of the event in key,value pairs .json format. The eventgen.conf file is used to change the 'values'of this security_log.sample file by randomly picking the the inputs provided from the other sample values.
 
         ─$ cat security_log.sample 
         { "Event_Time":"2023-11-23 16:30:20", "src_ip":"100.40.50.10", "UserName":"sa           muel", "Action":"Success",  "Source_Country":"Spain", "Company":"Cyber_Tec          h", "Protocol":"tcp", "Port":"443" }
 
-    2) action.sample:
+> > > ### 2) action.sample:
 
         This file has the values of 'Success' and  'Failed'.
 
@@ -53,7 +54,7 @@ This section describes the information contained in the sample files and eventge
                 Failed
                 Success
 
-    3) countries.sample:
+> > > ### 3) countries.sample:
 
         This file has the different country names that would be distributed aross events. 
 
@@ -69,7 +70,7 @@ This section describes the information contained in the sample files and eventge
                 North Korea
                 Austria
 
-    4) companies.sample:
+> > > ### 4) companies.sample:
 
         This file has different company names.
 
@@ -78,7 +79,7 @@ This section describes the information contained in the sample files and eventge
                 Massive Dynamic
                 Office Communications
 
-    5) ip_address_1.sample
+> > > ### 5) ip_address_1.sample
         
         This file has different ip-addresses that would be randomly distributed across the events.
 
@@ -90,7 +91,7 @@ This section describes the information contained in the sample files and eventge
         20.56.89.196
                        
 
-    6) usernames.sample:
+> > > ### 6) usernames.sample:
 
          This file has the different usernames.
 
@@ -100,7 +101,7 @@ This section describes the information contained in the sample files and eventge
         John987
 
 
-II) eventgen.conf File:
+> ## II) eventgen.conf File:
 
         This file has all the configuration that's used to drive the generator in generating the events as per the selected sample file. 
 
