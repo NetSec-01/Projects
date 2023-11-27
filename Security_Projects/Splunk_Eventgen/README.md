@@ -1,15 +1,13 @@
 # **Overview:**
 
-> Used to generate security events as per the sample file using Splunk Eventgen.
-> The events can be outputted to splunk and analyzed using SPL(Search  Processing Language) query. 
+Used to generate security events as per the sample file using Splunk Eventgen.
+The events can be outputted to splunk and analyzed using SPL(Search  Processing Language) query. 
 
--**************************************************************************************************************************************************************************_
 
 # **Installation Requirements:**
 
 > Splunk and Eventgen has to be installed on the local system.
 
--**************************************************************************************************************************************************************************_
 
 # **File Placements:**
 
@@ -25,7 +23,6 @@
 > > 5) ip_address_1.sample
 > > 6) usernames.sample
 
--**************************************************************************************************************************************************************************_
 
 # **Files Description:**
 
@@ -155,4 +152,3 @@
         token.5.replacementType = file
         token.5.replacement = /opt/splunk/etc/apps/SA-Eventgen/samples/action.sample
 
--**************************************************************************************************************************************************************************_
