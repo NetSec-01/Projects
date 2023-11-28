@@ -1,7 +1,7 @@
 # Overview
 
-Used to generate security events as per the sample file using Splunk Eventgen.
-The events can be outputted to splunk and analyzed using SPL(Search  Processing Language) query. 
+<br> This project is to generate security events as per the sample file using Splunk Eventgen.
+<br>The events can be outputted to splunk and analyzed using SPL(Search  Processing Language) query. 
 
 
 # **Installation Requirements:**
@@ -11,7 +11,7 @@ The events can be outputted to splunk and analyzed using SPL(Search  Processing 
 
 # **File Placements:**
 
-> To ensure zero issues, make sure to place the files in the below mentioned folders.
+> To avoid runtime issues, make sure to place the files in the below mentioned folders.
 > Sample Files; which includes below mentioned files has to be placed into 'samples'   direcroty under SA-Eventgen (path: /opt/splunk/etc/apps/SA-Eventgen/samples) 
 > As a best practice for this project, ensure to install the 'splunk' application in '/opt' directory.
 
