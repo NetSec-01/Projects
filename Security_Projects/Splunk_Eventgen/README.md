@@ -16,7 +16,7 @@ The events can be outputted to splunk and analyzed using SPL(Search  Processing 
 > As a best practice for this project, ensure to install the 'splunk' application in '/opt' directory.
 
 > > Files to be placed in samples folder, 
-1) security_log.sample
+> > 1) security_log.sample
 > > 2) action.sample
 > > 3) countries.sample
 > > 4) companies.sample
@@ -39,9 +39,9 @@ The events can be outputted to splunk and analyzed using SPL(Search  Processing 
 
 > > > ### 2) action.sample:
 
-        This file has the values of 'Success' and  'Failed'.
+> > > > This file has the values of 'Success' and  'Failed'.
 
-        Note: If you want to see more failed events, edit the file with more 'Failed'           vales, vice-versa.
+> > > > Note: If you want to see more failed events, edit the file with more 'Failed' vales and vice-versa.
             
                 └─$ cat action.sample 
                 Failed
@@ -53,7 +53,7 @@ The events can be outputted to splunk and analyzed using SPL(Search  Processing 
 
 > > > ### 3) countries.sample:
 
-        This file has the different country names that would be distributed aross events. 
+> > > > This file has the different country names that would be distributed aross events.
 
                 └─$ cat countries.sample 
                 South Korea
@@ -69,7 +69,7 @@ The events can be outputted to splunk and analyzed using SPL(Search  Processing 
 
 > > > ### 4) companies.sample:
 
-        This file has different company names.
+> > > > This file has different company names.
 
                 └─$ cat companies.sample 
                 Cyber Tek
@@ -78,7 +78,7 @@ The events can be outputted to splunk and analyzed using SPL(Search  Processing 
 
 > > > ### 5) ip_address_1.sample
         
-        This file has different ip-addresses that would be randomly distributed across the events.
+> > > > This file has different ip-addresses that would be randomly distributed across the events.
 
 
         └─$ cat ip_address_1.sample 
@@ -90,7 +90,7 @@ The events can be outputted to splunk and analyzed using SPL(Search  Processing 
 
 > > > ### 6) usernames.sample:
 
-         This file has the different usernames.
+> > > > This file has the different usernames.
 
         └─$ cat usernames.sample   
         samuel123
@@ -100,11 +100,11 @@ The events can be outputted to splunk and analyzed using SPL(Search  Processing 
 
 > ## II) eventgen.conf File:
 
-        This file has all the configuration that's used to drive the generator in generating the events as per the selected sample file. 
+> > This file has all the configuration that's used to drive the generator in generating the events as per the selected sample file. 
 
-        Note: The parameter definations and supporting values can be referred from below link.
+> > Note: The parameter definations and supporting values can be referred from below link.
 
-        https://splunk.github.io/eventgen/REFERENCE.html#eventgenconfspec
+> > https://splunk.github.io/eventgen/REFERENCE.html#eventgenconfspec
 
         ─$ cat eventgen.conf
         [security_log.sample]
