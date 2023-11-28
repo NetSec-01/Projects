@@ -1,7 +1,7 @@
 # Overview
 
-<br> This project is to generate security events as per the sample file using Splunk Eventgen.
-<br>The events can be outputted to splunk and analyzed using SPL(Search  Processing Language) query. 
+This project is to generate security events as per the sample file using Splunk Eventgen.
+The events can be outputted to splunk and analyzed using SPL(Search  Processing Language) query. 
 
 
 # **Installation Requirements:**
@@ -16,7 +16,7 @@
 > As a best practice for this project, ensure to install the 'splunk' application in '/opt' directory.
 
 > > Files to be placed in samples folder, 
-> > 1) security_log.sample
+1) security_log.sample
 > > 2) action.sample
 > > 3) countries.sample
 > > 4) companies.sample
