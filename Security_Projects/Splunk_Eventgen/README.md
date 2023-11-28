@@ -1,7 +1,7 @@
 # Overview
 
-This project is to generate security events as per the sample file using Splunk Eventgen.
-The events can be outputted to splunk and analyzed using SPL(Search  Processing Language) query. 
+This project's end goal is to generate security events as per the sample file using Splunk Eventgen.
+These events are then outputted to splunk and analyzed using SPL(Search Processing Language) to identify security incidents. 
 
 
 # **Installation Requirements:**
